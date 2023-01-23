@@ -9,55 +9,24 @@
   font-size: 25px;
 }
 
-.block1 {
+.main-content {
   height: 100px;
-  background-color: orchid;
   width: 79%;
   float: right;
   margin-bottom: 10px;
   color: white;
 }
 
-.block2 {
+.sub-content {
   height: 100px;
-  background-color: skyblue;
-  width: 79%;
-  float: right;
-  margin-bottom: 10px;
-  color: white;
-}
-
-.block3 {
-  height: 100px;
-  background-color: cornflowerblue;
   width: 39%;
   float: right;
   margin-bottom: 10px;
   color: white;
 }
 
-.block4 {
+.end-content {
   height: 100px;
-  background-color: plum;
-  width: 39%;
-  float: right;
-  margin-bottom: 10px;
-  margin-right: 1%;
-  color: white;
-}
-
-.block5 {
-  height: 100px;
-  background-color: indianred;
-  width: 79%;
-  float: right;
-  margin-bottom: 10px;
-  color: white;
-}
-
-.block6 {
-  height: 100px;
-  background-color: hotpink;
   width: 20%;
   float: left;
   margin-bottom: 10px;
@@ -65,14 +34,39 @@
   color: white;
 }
 
-.block7 {
-  height: 100px;
+.color-orchid {
+  background-color: orchid;
+}
+
+.color-skyblue {
+  background-color: skyblue;
+}
+
+.color-cornflowerblue {
+  background-color: cornflowerblue;
+}
+
+.color-plum {
+  background-color: plum;
+  margin-right: 1%;
+}
+
+.color-indianred {
+  background-color: indianred;
+}
+
+.color-hotpink {
+  background-color: hotpink;
+}
+
+.color-midnightblue {
   background-color: midnightblue;
-  width: 79%;
-  float: right;
-  color: white;
 }
 
 .image {
   object-position: "right";
+}
+
+.footer {
+  clear: both;
 }
